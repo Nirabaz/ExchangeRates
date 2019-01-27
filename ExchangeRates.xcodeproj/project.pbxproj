@@ -12,9 +12,12 @@
 		592C6C7F21FE52D7008B2A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592C6C7D21FE52D7008B2A98 /* Main.storyboard */; };
 		592C6C8121FE52E3008B2A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592C6C8021FE52E3008B2A98 /* Assets.xcassets */; };
 		592C6C8421FE52E3008B2A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592C6C8221FE52E3008B2A98 /* LaunchScreen.storyboard */; };
+		F68913E8C98472C0E8862B94 /* Pods_ExchangeRates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E3C7AA4C7740AAAA5CD9CB /* Pods_ExchangeRates.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DFAF25E54918764465BF21A /* Pods-ExchangeRates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRates.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates.debug.xcconfig"; sourceTree = "<group>"; };
+		28E3C7AA4C7740AAAA5CD9CB /* Pods_ExchangeRates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeRates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		592C6C7621FE52D7008B2A98 /* ExchangeRates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592C6C7921FE52D7008B2A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		592C6C7B21FE52D7008B2A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		592C6C8021FE52E3008B2A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		592C6C8321FE52E3008B2A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592C6C8521FE52E3008B2A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F493009B37CBF4A1E589F2A5 /* Pods-ExchangeRates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRates.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68913E8C98472C0E8862B94 /* Pods_ExchangeRates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EB97C162E1403ACFD185987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28E3C7AA4C7740AAAA5CD9CB /* Pods_ExchangeRates.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		592C6C6D21FE52D7008B2A98 = {
 			isa = PBXGroup;
 			children = (
 				592C6C7821FE52D7008B2A98 /* ExchangeRates */,
 				592C6C7721FE52D7008B2A98 /* Products */,
+				9E26A9B41ADBAC30F411CD72 /* Pods */,
+				2EB97C162E1403ACFD185987 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = ExchangeRates;
 			sourceTree = "<group>";
 		};
+		9E26A9B41ADBAC30F411CD72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DFAF25E54918764465BF21A /* Pods-ExchangeRates.debug.xcconfig */,
+				F493009B37CBF4A1E589F2A5 /* Pods-ExchangeRates.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 592C6C8821FE52E3008B2A98 /* Build configuration list for PBXNativeTarget "ExchangeRates" */;
 			buildPhases = (
+				BC955999F489DACDA0FEAE96 /* [CP] Check Pods Manifest.lock */,
 				592C6C7221FE52D7008B2A98 /* Sources */,
 				592C6C7321FE52D7008B2A98 /* Frameworks */,
 				592C6C7421FE52D7008B2A98 /* Resources */,
+				372F508062173679F6FF1045 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		372F508062173679F6FF1045 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC955999F489DACDA0FEAE96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExchangeRates-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		592C6C7221FE52D7008B2A98 /* Sources */ = {
@@ -280,6 +357,7 @@
 		};
 		592C6C8921FE52E3008B2A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFAF25E54918764465BF21A /* Pods-ExchangeRates.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +376,7 @@
 		};
 		592C6C8A21FE52E3008B2A98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F493009B37CBF4A1E589F2A5 /* Pods-ExchangeRates.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
