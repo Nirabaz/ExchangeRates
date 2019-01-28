@@ -8,10 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		592C6C7A21FE52D7008B2A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C6C7921FE52D7008B2A98 /* AppDelegate.swift */; };
-		592C6C7C21FE52D7008B2A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C6C7B21FE52D7008B2A98 /* ViewController.swift */; };
-		592C6C7F21FE52D7008B2A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592C6C7D21FE52D7008B2A98 /* Main.storyboard */; };
+		592C6C7C21FE52D7008B2A98 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C6C7B21FE52D7008B2A98 /* StartVC.swift */; };
 		592C6C8121FE52E3008B2A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592C6C8021FE52E3008B2A98 /* Assets.xcassets */; };
-		592C6C8421FE52E3008B2A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592C6C8221FE52E3008B2A98 /* LaunchScreen.storyboard */; };
+		597137F621FE60D80052C1FA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597137F521FE60D80052C1FA /* NetworkManager.swift */; };
+		597137F921FE62790052C1FA /* ExtNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597137F821FE62790052C1FA /* ExtNotificationName.swift */; };
+		597137FB21FE657D0052C1FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597137FA21FE657D0052C1FA /* Constants.swift */; };
+		597137FE21FE67F20052C1FA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597137FD21FE67F20052C1FA /* Utils.swift */; };
+		5971380421FE686C0052C1FA /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971380321FE686C0052C1FA /* BaseCollectionViewCell.swift */; };
+		5971380621FE68850052C1FA /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971380521FE68850052C1FA /* BaseTableViewCell.swift */; };
+		5971380921FE68B50052C1FA /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971380821FE68B50052C1FA /* BaseVC.swift */; };
+		5971380E21FE70910052C1FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5971380D21FE70910052C1FA /* Main.storyboard */; };
+		5971381021FE70E00052C1FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5971380F21FE70E00052C1FA /* LaunchScreen.storyboard */; };
+		5971381521FE73C10052C1FA /* BankCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971381321FE73C10052C1FA /* BankCVCell.swift */; };
+		5971381621FE73C10052C1FA /* BankCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5971381421FE73C10052C1FA /* BankCVCell.xib */; };
+		5971381B21FE762D0052C1FA /* PrivatRateTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971381921FE762D0052C1FA /* PrivatRateTVCell.swift */; };
+		5971381C21FE762D0052C1FA /* PrivatRateTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5971381A21FE762D0052C1FA /* PrivatRateTVCell.xib */; };
+		5971382321FE76B50052C1FA /* HeaderTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971382121FE76B50052C1FA /* HeaderTVCell.swift */; };
+		5971382421FE76B50052C1FA /* HeaderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5971382221FE76B50052C1FA /* HeaderTVCell.xib */; };
+		5971382821FE76DB0052C1FA /* NBURateTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971382621FE76DB0052C1FA /* NBURateTVCell.swift */; };
+		5971382921FE76DB0052C1FA /* NBURateTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5971382721FE76DB0052C1FA /* NBURateTVCell.xib */; };
 		F68913E8C98472C0E8862B94 /* Pods_ExchangeRates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E3C7AA4C7740AAAA5CD9CB /* Pods_ExchangeRates.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +35,26 @@
 		28E3C7AA4C7740AAAA5CD9CB /* Pods_ExchangeRates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeRates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		592C6C7621FE52D7008B2A98 /* ExchangeRates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592C6C7921FE52D7008B2A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		592C6C7B21FE52D7008B2A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		592C6C7E21FE52D7008B2A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		592C6C8021FE52E3008B2A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		592C6C8321FE52E3008B2A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		592C6C7B21FE52D7008B2A98 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		592C6C8021FE52E3008B2A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		592C6C8521FE52E3008B2A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		597137F521FE60D80052C1FA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		597137F821FE62790052C1FA /* ExtNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtNotificationName.swift; sourceTree = "<group>"; };
+		597137FA21FE657D0052C1FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		597137FD21FE67F20052C1FA /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5971380321FE686C0052C1FA /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		5971380521FE68850052C1FA /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		5971380821FE68B50052C1FA /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		5971380D21FE70910052C1FA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5971380F21FE70E00052C1FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5971381321FE73C10052C1FA /* BankCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCVCell.swift; sourceTree = "<group>"; };
+		5971381421FE73C10052C1FA /* BankCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankCVCell.xib; sourceTree = "<group>"; };
+		5971381921FE762D0052C1FA /* PrivatRateTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivatRateTVCell.swift; sourceTree = "<group>"; };
+		5971381A21FE762D0052C1FA /* PrivatRateTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrivatRateTVCell.xib; sourceTree = "<group>"; };
+		5971382121FE76B50052C1FA /* HeaderTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTVCell.swift; sourceTree = "<group>"; };
+		5971382221FE76B50052C1FA /* HeaderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTVCell.xib; sourceTree = "<group>"; };
+		5971382621FE76DB0052C1FA /* NBURateTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBURateTVCell.swift; sourceTree = "<group>"; };
+		5971382721FE76DB0052C1FA /* NBURateTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NBURateTVCell.xib; sourceTree = "<group>"; };
 		F493009B37CBF4A1E589F2A5 /* Pods-ExchangeRates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRates.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,13 +100,141 @@
 			isa = PBXGroup;
 			children = (
 				592C6C7921FE52D7008B2A98 /* AppDelegate.swift */,
-				592C6C7B21FE52D7008B2A98 /* ViewController.swift */,
-				592C6C7D21FE52D7008B2A98 /* Main.storyboard */,
-				592C6C8021FE52E3008B2A98 /* Assets.xcassets */,
-				592C6C8221FE52E3008B2A98 /* LaunchScreen.storyboard */,
-				592C6C8521FE52E3008B2A98 /* Info.plist */,
+				597137F321FE60980052C1FA /* Utils */,
+				597137FF21FE68240052C1FA /* UI */,
+				5971380C21FE6F290052C1FA /* SourseFiles */,
 			);
 			path = ExchangeRates;
+			sourceTree = "<group>";
+		};
+		597137F321FE60980052C1FA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				597137F421FE60A20052C1FA /* NetworkManager */,
+				597137F721FE60FF0052C1FA /* Extensions */,
+				597137FA21FE657D0052C1FA /* Constants.swift */,
+				597137FD21FE67F20052C1FA /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		597137F421FE60A20052C1FA /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				597137F521FE60D80052C1FA /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		597137F721FE60FF0052C1FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				597137F821FE62790052C1FA /* ExtNotificationName.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		597137FF21FE68240052C1FA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5971380B21FE6F080052C1FA /* Storyboards */,
+				5971380A21FE6EE20052C1FA /* VIewControllers */,
+				5971380021FE68440052C1FA /* UIUtils */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5971380021FE68440052C1FA /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5971380721FE68A10052C1FA /* BaseVC */,
+				5971380121FE684D0052C1FA /* BaseCells */,
+			);
+			path = UIUtils;
+			sourceTree = "<group>";
+		};
+		5971380121FE684D0052C1FA /* BaseCells */ = {
+			isa = PBXGroup;
+			children = (
+				5971380321FE686C0052C1FA /* BaseCollectionViewCell.swift */,
+				5971380521FE68850052C1FA /* BaseTableViewCell.swift */,
+			);
+			path = BaseCells;
+			sourceTree = "<group>";
+		};
+		5971380721FE68A10052C1FA /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				5971380821FE68B50052C1FA /* BaseVC.swift */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		5971380A21FE6EE20052C1FA /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5971381121FE717F0052C1FA /* StartVC */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		5971380B21FE6F080052C1FA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5971380D21FE70910052C1FA /* Main.storyboard */,
+				5971380F21FE70E00052C1FA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5971380C21FE6F290052C1FA /* SourseFiles */ = {
+			isa = PBXGroup;
+			children = (
+				592C6C8521FE52E3008B2A98 /* Info.plist */,
+				592C6C8021FE52E3008B2A98 /* Assets.xcassets */,
+			);
+			path = SourseFiles;
+			sourceTree = "<group>";
+		};
+		5971381121FE717F0052C1FA /* StartVC */ = {
+			isa = PBXGroup;
+			children = (
+				5971381221FE738C0052C1FA /* Cells */,
+				592C6C7B21FE52D7008B2A98 /* StartVC.swift */,
+			);
+			path = StartVC;
+			sourceTree = "<group>";
+		};
+		5971381221FE738C0052C1FA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5971382C21FE77B00052C1FA /* Bank */,
+				5971382D21FE77E60052C1FA /* Rates */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5971382C21FE77B00052C1FA /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				5971381321FE73C10052C1FA /* BankCVCell.swift */,
+				5971381421FE73C10052C1FA /* BankCVCell.xib */,
+			);
+			name = Bank;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5971382D21FE77E60052C1FA /* Rates */ = {
+			isa = PBXGroup;
+			children = (
+				5971382121FE76B50052C1FA /* HeaderTVCell.swift */,
+				5971382221FE76B50052C1FA /* HeaderTVCell.xib */,
+				5971381921FE762D0052C1FA /* PrivatRateTVCell.swift */,
+				5971381A21FE762D0052C1FA /* PrivatRateTVCell.xib */,
+				5971382621FE76DB0052C1FA /* NBURateTVCell.swift */,
+				5971382721FE76DB0052C1FA /* NBURateTVCell.xib */,
+			);
+			path = Rates;
 			sourceTree = "<group>";
 		};
 		9E26A9B41ADBAC30F411CD72 /* Pods */ = {
@@ -148,9 +306,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				592C6C8421FE52E3008B2A98 /* LaunchScreen.storyboard in Resources */,
+				5971381621FE73C10052C1FA /* BankCVCell.xib in Resources */,
+				5971381021FE70E00052C1FA /* LaunchScreen.storyboard in Resources */,
+				5971380E21FE70910052C1FA /* Main.storyboard in Resources */,
 				592C6C8121FE52E3008B2A98 /* Assets.xcassets in Resources */,
-				592C6C7F21FE52D7008B2A98 /* Main.storyboard in Resources */,
+				5971382421FE76B50052C1FA /* HeaderTVCell.xib in Resources */,
+				5971382921FE76DB0052C1FA /* NBURateTVCell.xib in Resources */,
+				5971381C21FE762D0052C1FA /* PrivatRateTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,31 +374,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				592C6C7C21FE52D7008B2A98 /* ViewController.swift in Sources */,
+				5971380621FE68850052C1FA /* BaseTableViewCell.swift in Sources */,
+				597137FB21FE657D0052C1FA /* Constants.swift in Sources */,
+				5971380421FE686C0052C1FA /* BaseCollectionViewCell.swift in Sources */,
+				597137F621FE60D80052C1FA /* NetworkManager.swift in Sources */,
+				5971380921FE68B50052C1FA /* BaseVC.swift in Sources */,
+				5971382821FE76DB0052C1FA /* NBURateTVCell.swift in Sources */,
+				597137F921FE62790052C1FA /* ExtNotificationName.swift in Sources */,
+				592C6C7C21FE52D7008B2A98 /* StartVC.swift in Sources */,
 				592C6C7A21FE52D7008B2A98 /* AppDelegate.swift in Sources */,
+				5971382321FE76B50052C1FA /* HeaderTVCell.swift in Sources */,
+				5971381521FE73C10052C1FA /* BankCVCell.swift in Sources */,
+				5971381B21FE762D0052C1FA /* PrivatRateTVCell.swift in Sources */,
+				597137FE21FE67F20052C1FA /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		592C6C7D21FE52D7008B2A98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				592C6C7E21FE52D7008B2A98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		592C6C8221FE52E3008B2A98 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				592C6C8321FE52E3008B2A98 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		592C6C8621FE52E3008B2A98 /* Debug */ = {
@@ -362,7 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E4WSQJ8FEJ;
-				INFOPLIST_FILE = ExchangeRates/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ExchangeRates/SourseFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,7 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E4WSQJ8FEJ;
-				INFOPLIST_FILE = ExchangeRates/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ExchangeRates/SourseFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
